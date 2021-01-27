@@ -27,3 +27,8 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/phx_digest](https://hexdocs.pm/phx_digest).
 
+
+## How to Use
+
+* build it first : `mix escript.build`
+* then run : `./phx_digest priv/static priv/static`
