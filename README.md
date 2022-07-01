@@ -24,7 +24,7 @@ by adding `phx_digest` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:phx_digest, "~> 0.1.0"}
+    {:phx_digest, "~> 1.6.10"}
   ]
 end
 ```
