@@ -4,7 +4,7 @@ defmodule PhxDigest.MixProject do
   def project do
     [
       app: :phx_digest,
-      version: "1.5.6",
+      version: "1.6.10",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -34,6 +34,7 @@ defmodule PhxDigest.MixProject do
   defp escript do
     [main_module: PhxDigest.CLI]
   end
+
   defp description() do
     "a tool com from mix phx.digest"
   end
